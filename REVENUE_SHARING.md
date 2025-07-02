@@ -16,22 +16,31 @@ UniAccess aims to make digital technology accessible to everyone while ensuring 
 ### **Revenue Distribution**
 
 #### **Project Owner (Creator)**
-- **30-40%** of net revenue
-- Maintains intellectual property rights
+- **40-50%** of net revenue
+- Covers legal costs and trademark protection
 - Strategic direction and vision
-- Community management
+- Business development and sales
+- Intellectual property ownership
 
 #### **Technical Leaders & Core Contributors**
-- **40-50%** of net revenue
+- **30-40%** of net revenue
 - Based on contribution level and responsibility
 - Technical leadership and development
 - Architecture and code quality
+- Fair compensation for expertise
 
 #### **Community Contributors**
 - **10-20%** of net revenue
 - Distributed based on contribution impact
 - Bug fixes, features, documentation
 - Testing and feedback
+- Recognition for community work
+
+#### **Legal and Administrative**
+- **5-10%** of net revenue
+- Trademark maintenance and protection
+- Legal compliance and contracts
+- Administrative overhead and accounting
 
 ### **Contribution Levels**
 
@@ -66,10 +75,13 @@ UniAccess aims to make digital technology accessible to everyone while ensuring 
 ## 📋 Implementation Details
 
 ### **Revenue Tracking**
-- Transparent accounting and reporting
-- Quarterly revenue distribution
-- Public dashboard of contributions
-- Clear metrics for contribution evaluation
+- **Transparent accounting** and reporting
+- **Monthly financial reports** shared with contributors
+- **Quarterly revenue distribution** with detailed breakdown
+- **Public dashboard** of contributions and payments
+- **Clear metrics** for contribution evaluation
+- **Annual audit** by independent accountant
+- **Open books policy** for all contributors
 
 ### **Intellectual Property**
 - **Creator retains IP rights** to the original concept and vision
