@@ -17,13 +17,21 @@ This universal accessibility project was created with a clear vision but the cre
 - **Evolve the project** according to your expertise
 
 **Why join this project?**
-- Significant impact on digital accessibility
-- Recognition in the open source community
-- Technical freedom to innovate
-- Project with solid foundation already established
+- **Revenue sharing** - Earn from commercial licenses and services
+- **Significant impact** on digital accessibility
+- **Recognition** in the open source community
+- **Technical freedom** to innovate
+- **Project with solid foundation** already established
+
+**Financial Benefits:**
+- **40-50% of revenue** shared with technical leaders
+- **Performance bonuses** for major milestones
+- **Consulting opportunities** through the project
+- **Equity opportunities** for long-term contributors
 
 **How to get started?**
 - Check our [contribution guide](CONTRIBUTING.md#technical-leadership-and-responsibility)
+- Review our [revenue sharing policy](REVENUE_SHARING.md)
 - Create an issue with the `leadership` label
 - Present your vision and action plan
 
