@@ -1,0 +1,3 @@
+kivy
+pyjnius
+# pyjnius  # Décommente pour la synthèse vocale réelle 

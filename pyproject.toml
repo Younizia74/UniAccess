@@ -1,0 +1,202 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uniaccess"
+dynamic = ["version"]
+description = "Solution d'accessibilité universelle avec support IA et multimodalité"
+readme = "README.md"
+license = {text = "MIT OR Apache-2.0"}
+authors = [
+    {name = "Équipe UniAccess", email = "contact@uniaccess.org"}
+]
+maintainers = [
+    {name = "Équipe UniAccess", email = "contact@uniaccess.org"}
+]
+keywords = ["accessibility", "universal", "screen-reader", "linux", "android", "ai", "braille", "speech", "haptic"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Android",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Desktop Environment",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Hardware",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "opencv-python>=4.5.0",
+    "pillow>=8.3.0",
+    "pygame>=2.0.0",
+    "pyaudio>=0.2.11",
+    "espeak-ng>=0.1.0",
+    "pyttsx3>=2.90",
+    "pynput>=1.7.0",
+    "psutil>=5.8.0",
+    "configparser>=5.0.0",
+    "logging>=0.5.1.2",
+    "argparse>=1.4.0",
+    "pathlib>=1.0.1",
+    "typing-extensions>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.10",
+    "pytest-mock>=3.6",
+    "flake8>=3.9",
+    "black>=21.0",
+    "isort>=5.9",
+    "mypy>=0.910",
+    "bandit>=1.7.0",
+    "safety>=1.10.0",
+]
+android = [
+    "kivy>=2.0.0",
+    "buildozer>=1.2.0",
+    "plyer>=2.0.0",
+]
+ai = [
+    "tensorflow>=2.8.0",
+    "torch>=1.10.0",
+    "transformers>=4.15.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+]
+braille = [
+    "brltty>=6.0.0",
+    "pybrl>=0.1.0",
+]
+haptic = [
+    "pygame>=2.0.0",
+    "evdev>=1.4.0",
+]
+audio = [
+    "pyaudio>=0.2.11",
+    "librosa>=0.8.0",
+    "sounddevice>=0.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/uniaccess"
+Documentation = "https://github.com/your-username/uniaccess/tree/main/docs"
+Repository = "https://github.com/your-username/uniaccess.git"
+"Bug Tracker" = "https://github.com/your-username/uniaccess/issues"
+"Discussions" = "https://github.com/your-username/uniaccess/discussions"
+"Funding" = "https://github.com/sponsors/your-username"
+
+[project.scripts]
+uniaccess = "uniaccess.main:main"
+
+[project.gui-scripts]
+uniaccess-gui = "uniaccess.gui:main"
+
+[tool.setuptools]
+packages = ["uniaccess", "uniaccess_android"]
+
+[tool.setuptools.package-data]
+"uniaccess" = ["*.txt", "*.md", "*.ini", "*.json"]
+"uniaccess_android" = ["*.txt", "*.md", "*.ini", "*.json"]
+
+[tool.setuptools_scm]
+write_to = "uniaccess/_version.py"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["uniaccess", "uniaccess_android"]
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "accessibility: marks tests as accessibility tests",
+    "unit: marks tests as unit tests",
+]
+
+[tool.coverage.run]
+source = ["uniaccess"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/env/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.bandit]
+exclude_dirs = ["tests", "venv", "env"]
+skips = ["B101", "B601"]
+
+[tool.safety]
+output = "json" 
