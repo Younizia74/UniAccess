@@ -1,144 +1,144 @@
-# Guide de contribution à UniAccess
+# UniAccess Contribution Guide
 
-Merci de votre intérêt pour contribuer à UniAccess ! Ce projet vise à rendre le monde numérique accessible à tous, et votre contribution est précieuse.
+Thank you for your interest in contributing to UniAccess! This project aims to make the digital world accessible to everyone, and your contribution is precious.
 
-## 🎯 Contexte du projet
+## 🎯 Project Context
 
-**Important à savoir :** Le créateur de ce projet n'est pas développeur de métier, mais a une vision claire de l'accessibilité universelle. Ce projet a été initié avec l'aide de Cursor et de l'IA, reconnaissant les limites techniques actuelles.
+**Important to know:** The creator of this project is not a professional developer, but has a clear vision of universal accessibility. This project was initiated with the help of Cursor and AI, recognizing current technical limitations.
 
-**Notre approche :** Nous cherchons des développeurs passionnés par l'accessibilité qui souhaitent :
-- Améliorer et étendre les fonctionnalités
-- Prendre un rôle de leadership technique si nécessaire
-- Partager leur expertise pour faire avancer le projet
-- Collaborer avec la communauté pour créer une solution d'accessibilité de qualité
+**Our approach:** We are looking for developers passionate about accessibility who want to:
+- Improve and extend functionality
+- Take a technical leadership role if necessary
+- Share their expertise to advance the project
+- Collaborate with the community to create a quality accessibility solution
 
-**Votre rôle :** En tant que contributeur, vous êtes encouragé à :
-- Proposer des améliorations techniques
-- Prendre l'initiative sur les aspects que vous maîtrisez
-- Guider le projet vers les meilleures pratiques
-- Partager vos connaissances avec la communauté
+**Your role:** As a contributor, you are encouraged to:
+- Propose technical improvements
+- Take initiative on aspects you master
+- Guide the project toward best practices
+- Share your knowledge with the community
 
-## 🚀 Comment commencer
+## 🚀 How to get started
 
-### Prérequis
-- Python 3.8 ou supérieur
+### Prerequisites
+- Python 3.8 or higher
 - Git
-- Un éditeur de code (VS Code, PyCharm, etc.)
-- Compte GitHub
+- A code editor (VS Code, PyCharm, etc.)
+- GitHub account
 
-### Installation rapide
+### Quick installation
 
 ```bash
-# Cloner le dépôt
-git clone https://github.com/your-username/uniaccess.git
-cd uniaccess
+# Clone the repository
+git clone https://github.com/Younizia74/UniAccess.git
+cd UniAccess
 
-# Créer un environnement virtuel
+# Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # Sur Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Installer les dépendances
+# Install dependencies
 pip install -r requirements.txt
 pip install -r requirements_linux.txt
 
-# Exécuter les tests
+# Run tests
 pytest tests/
 ```
 
-## 🏆 Leadership technique et prise de responsabilité
+## 🏆 Technical Leadership and Responsibility
 
-### Pourquoi cherchons-nous des leaders techniques ?
+### Why are we looking for technical leaders?
 
-Ce projet a été créé avec une vision claire de l'accessibilité universelle, mais le créateur reconnaît ses limites techniques. Nous cherchons activement des développeurs expérimentés qui souhaitent :
+This project was created with a clear vision of universal accessibility, but the creator recognizes their technical limitations. We are actively seeking experienced developers who want to:
 
-- **Prendre la direction technique** du projet
-- **Améliorer l'architecture** et les bonnes pratiques
-- **Guider les nouveaux contributeurs**
-- **Définir la roadmap technique** du projet
+- **Take technical direction** of the project
+- **Improve architecture** and best practices
+- **Guide new contributors**
+- **Define the technical roadmap** of the project
 
-### Comment devenir un leader technique ?
+### How to become a technical leader?
 
-#### 1. **Commencez par contribuer**
-- Corrigez des bugs
-- Ajoutez des fonctionnalités
-- Améliorez la documentation
-- Participez aux discussions
+#### 1. **Start by contributing**
+- Fix bugs
+- Add features
+- Improve documentation
+- Participate in discussions
 
-#### 2. **Montrez votre expertise**
-- Proposez des améliorations architecturales
-- Aidez à résoudre des problèmes complexes
-- Guidez d'autres contributeurs
-- Mettez en place des bonnes pratiques
+#### 2. **Show your expertise**
+- Propose architectural improvements
+- Help solve complex problems
+- Guide other contributors
+- Implement best practices
 
-#### 3. **Prenez des responsabilités**
-- Devenez mainteneur du projet
-- Rejoignez l'équipe de direction
-- Prenez en charge des modules spécifiques
-- Organisez des événements communautaires
+#### 3. **Take responsibilities**
+- Become a project maintainer
+- Join the leadership team
+- Take charge of specific modules
+- Organize community events
 
-### Avantages du leadership technique
+### Benefits of technical leadership
 
-- **Impact significatif** sur l'accessibilité numérique
-- **Reconnaissance** dans la communauté open source
-- **Développement de compétences** en leadership
-- **Réseau professionnel** dans le domaine de l'accessibilité
-- **Possibilité de faire évoluer** le projet selon votre vision
+- **Significant impact** on digital accessibility
+- **Recognition** in the open source community
+- **Leadership skill development**
+- **Professional network** in the accessibility field
+- **Ability to evolve** the project according to your vision
 
-### Contact pour le leadership
+### Contact for leadership
 
-Si vous êtes intéressé par un rôle de leadership technique :
-- Créez une issue avec le label `leadership`
-- Présentez votre expérience et votre vision
-- Proposez un plan d'action
-- Nous discuterons ensemble des possibilités
+If you are interested in a technical leadership role:
+- Create an issue with the `leadership` label
+- Present your experience and vision
+- Propose an action plan
+- We will discuss possibilities together
 
-## 📋 Types de contributions
+## 📋 Types of contributions
 
-### 🐛 Signaler un bug
-- Utilisez le template [Rapport de bug](.github/ISSUE_TEMPLATE/bug_report.md)
-- Incluez les étapes de reproduction
-- Ajoutez les logs d'erreur
-- Précisez votre environnement
+### 🐛 Report a bug
+- Use the [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) template
+- Include reproduction steps
+- Add error logs
+- Specify your environment
 
-### 💡 Proposer une fonctionnalité
-- Utilisez le template [Demande de fonctionnalité](.github/ISSUE_TEMPLATE/feature_request.md)
-- Expliquez l'impact sur l'accessibilité
-- Décrivez les cas d'usage
+### 💡 Propose a feature
+- Use the [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) template
+- Explain the impact on accessibility
+- Describe use cases
 
-### ♿ Problèmes d'accessibilité
-- Utilisez le template [Problème d'accessibilité](.github/ISSUE_TEMPLATE/accessibility_issue.md)
-- Décrivez votre contexte d'utilisation
-- Précisez les technologies d'assistance utilisées
+### ♿ Accessibility issues
+- Use the [Accessibility Issue](.github/ISSUE_TEMPLATE/accessibility_issue.md) template
+- Describe your usage context
+- Specify assistive technologies used
 
-## 🔧 Développement
+## 🔧 Development
 
-### Structure du projet
+### Project structure
 ```
 uniaccess/
-├── uniaccess/          # Code principal
-│   ├── core/            # Composants de base
-│   ├── apps/            # Support des applications
-│   └── ai/              # Fonctionnalités IA
-├── uniaccess_android/   # Support Android
-├── tests/               # Tests unitaires et d'intégration
+├── uniaccess/          # Main code
+│   ├── core/            # Base components
+│   ├── apps/            # Application support
+│   └── ai/              # AI features
+├── uniaccess_android/   # Android support
+├── tests/               # Unit and integration tests
 ├── docs/                # Documentation
-└── android/             # Configuration Android
+└── android/             # Android configuration
 ```
 
-### Conventions de code
-- **Style** : Suivez PEP 8
-- **Docstrings** : Utilisez le format Google
-- **Tests** : Couverture minimale de 80%
-- **Commits** : Messages en français, format conventionnel
+### Code conventions
+- **Style**: Follow PEP 8
+- **Docstrings**: Use Google format
+- **Tests**: Minimum 80% coverage
+- **Commits**: Messages in English, conventional format
 
-### Workflow de développement
+### Development workflow
 
    ```bash
-# 1. Créer une branche
-git checkout -b feature/nouvelle-fonctionnalite
+# 1. Create a branch
+git checkout -b feature/new-feature
 
-# 2. Développer
-# ... votre code ...
+# 2. Develop
+# ... your code ...
 
 # 3. Tests
 pytest tests/
@@ -147,125 +147,125 @@ black --check .
 
 # 4. Commit
 git add .
-git commit -m "feat: ajouter nouvelle fonctionnalité"
+git commit -m "feat: add new feature"
 
-# 5. Push et Pull Request
-git push origin feature/nouvelle-fonctionnalite
+# 5. Push and Pull Request
+git push origin feature/new-feature
 ```
 
 ## 🧪 Tests
 
-### Exécuter les tests
+### Run tests
    ```bash
-# Tests unitaires
+# Unit tests
 pytest tests/unit/
 
-# Tests d'intégration
+# Integration tests
 pytest tests/integration/
 
-# Tests d'accessibilité
+# Accessibility tests
 pytest tests/accessibility/
 
-# Tous les tests avec couverture
+# All tests with coverage
 pytest tests/ --cov=uniaccess --cov-report=html
 ```
 
-### Ajouter des tests
-- Un test par fonctionnalité
-- Tests d'accessibilité pour les nouvelles interfaces
-- Tests de régression pour les bugs corrigés
+### Add tests
+- One test per feature
+- Accessibility tests for new interfaces
+- Regression tests for fixed bugs
 
 ## 📚 Documentation
 
-### Mettre à jour la documentation
-- README.md pour les changements majeurs
-- docs/ pour la documentation technique
-- Exemples de code dans docs/examples.md
+### Update documentation
+- README.md for major changes
+- docs/ for technical documentation
+- Code examples in docs/examples.md
 
-### Style de documentation
-- Clarté et concision
-- Exemples concrets
-- Liens vers les ressources pertinentes
+### Documentation style
+- Clarity and conciseness
+- Concrete examples
+- Links to relevant resources
 
-## 🔍 Revue de code
+## 🔍 Code review
 
-### Avant de soumettre une PR
-- [ ] Tests passent
-- [ ] Code linté (flake8, black)
-- [ ] Documentation mise à jour
-- [ ] Tests d'accessibilité effectués
-- [ ] Impact sur l'accessibilité évalué
+### Before submitting a PR
+- [ ] Tests pass
+- [ ] Code linted (flake8, black)
+- [ ] Documentation updated
+- [ ] Accessibility tests performed
+- [ ] Impact on accessibility evaluated
 
-### Processus de revue
-1. **Autorevue** : Vérifiez votre code
-2. **Tests CI** : Attendez que les tests passent
-3. **Revue par les mainteneurs** : Répondez aux commentaires
-4. **Merge** : Une fois approuvé
+### Review process
+1. **Self-review**: Check your code
+2. **CI tests**: Wait for tests to pass
+3. **Maintainer review**: Respond to comments
+4. **Merge**: Once approved
 
-## 🎯 Priorités du projet
+## 🎯 Project priorities
 
-### Haute priorité
-- Corrections de bugs critiques
-- Améliorations d'accessibilité
-- Support de nouvelles applications populaires
+### High priority
+- Critical bug fixes
+- Accessibility improvements
+- Support for new popular applications
 
-### Priorité moyenne
-- Nouvelles fonctionnalités
-- Optimisations de performance
-- Amélioration de la documentation
+### Medium priority
+- New features
+- Performance optimizations
+- Documentation improvement
 
-### Priorité basse
-- Refactoring non critique
-- Améliorations cosmétiques
-- Fonctionnalités expérimentales
+### Low priority
+- Non-critical refactoring
+- Cosmetic improvements
+- Experimental features
 
-## 🤝 Communauté
+## 🤝 Community
 
-### Code de conduite
-- Respect mutuel
-- Communication inclusive
-- Focus sur l'accessibilité
+### Code of conduct
+- Mutual respect
+- Inclusive communication
+- Focus on accessibility
 
-### Obtenir de l'aide
-- Issues GitHub pour les questions
-- Discussions GitHub pour les idées
-- Wiki pour les tutoriels
+### Get help
+- GitHub Issues for questions
+- GitHub Discussions for ideas
+- Wiki for tutorials
 
-### Événements
-- Hackathons d'accessibilité
-- Webinaires techniques
-- Rencontres communautaires
+### Events
+- Accessibility hackathons
+- Technical webinars
+- Community meetings
 
-## 🏆 Reconnaissance et leadership
+## 🏆 Recognition and leadership
 
-### Types de contributions reconnues
-- Code et tests
+### Types of recognized contributions
+- Code and tests
 - Documentation
-- Design et UX
-- Tests d'accessibilité
-- Traduction
-- Support communautaire
-- **Leadership technique** (très recherché !)
+- Design and UX
+- Accessibility testing
+- Translation
+- Community support
+- **Technical Leadership** (highly sought after!)
 
-### Programme de reconnaissance
-- Contributeurs dans le README
-- Badges de contribution
-- Mentions dans les releases
-- **Rôle de mainteneur** pour les contributeurs réguliers
+### Recognition program
+- Contributors in the README
+- Contribution badges
+- Mentions in releases
+- **Maintainer role** for regular contributors
 
-### Leadership technique
-Si vous êtes passionné par l'accessibilité et que vous souhaitez prendre un rôle de leadership technique :
-- N'hésitez pas à proposer des améliorations architecturales
-- Vous pouvez devenir mainteneur du projet
-- Nous encourageons l'initiative et l'autonomie
-- Votre expertise est précieuse pour faire avancer le projet
+### Technical Leadership
+If you are passionate about accessibility and want to take a technical leadership role:
+- Don't hesitate to propose architectural improvements
+- You can become a project maintainer
+- We encourage initiative and autonomy
+- Your expertise is invaluable for advancing the project
 
 ## 📞 Contact
 
-- **Issues** : [GitHub Issues](https://github.com/your-username/uniaccess/issues)
-- **Discussions** : [GitHub Discussions](https://github.com/your-username/uniaccess/discussions)
-- **Email** : contact@uniaccess.org
+- **Issues**: [GitHub Issues](https://github.com/Your-Username/UniAccess/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Your-Username/UniAccess/discussions)
+- **Email**: contact@uniaccess.org
 
 ---
 
-**Merci de contribuer à rendre le monde numérique accessible à tous !** 🌍♿
+**Thank you for contributing to make the digital world accessible to everyone!** 🌍♿

@@ -1,100 +1,100 @@
 # UniAccess
 
-[![CI/CD](https://github.com/your-username/uniaccess/workflows/CI/CD/badge.svg)](https://github.com/your-username/uniaccess/actions)
+[![CI/CD](https://github.com/Younizia74/UniAccess/workflows/CI/CD/badge.svg)](https://github.com/Younizia74/UniAccess/actions)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Accessibility](https://img.shields.io/badge/Accessibility-Enabled-green.svg)](https://github.com/your-username/uniaccess)
+[![Accessibility](https://img.shields.io/badge/Accessibility-Enabled-green.svg)](https://github.com/Younizia74/UniAccess)
 
-## 🚀 **Opportunité de leadership technique !**
+## 🚀 **Technical Leadership Opportunity!**
 
-**Nous cherchons des développeurs passionnés par l'accessibilité pour prendre la direction technique de ce projet !**
+**We're looking for developers passionate about accessibility to take technical leadership of this project!**
 
-Ce projet d'accessibilité universelle a été créé avec une vision claire mais le créateur reconnaît ses limites techniques. Si vous êtes un développeur expérimenté passionné par l'accessibilité, nous vous invitons à :
+This universal accessibility project was created with a clear vision but the creator recognizes their technical limitations. If you're an experienced developer passionate about accessibility, we invite you to:
 
-- **Prendre la direction technique** du projet
-- **Améliorer l'architecture** et les bonnes pratiques  
-- **Guider la communauté** de contributeurs
-- **Faire évoluer le projet** selon votre expertise
+- **Take technical leadership** of the project
+- **Improve architecture** and best practices  
+- **Guide the community** of contributors
+- **Evolve the project** according to your expertise
 
-**Pourquoi rejoindre ce projet ?**
-- Impact significatif sur l'accessibilité numérique
-- Reconnaissance dans la communauté open source
-- Liberté technique pour innover
-- Projet avec une base solide déjà établie
+**Why join this project?**
+- Significant impact on digital accessibility
+- Recognition in the open source community
+- Technical freedom to innovate
+- Project with solid foundation already established
 
-**Comment commencer ?**
-- Consultez notre [guide de contribution](CONTRIBUTING.md#leadership-technique-et-prise-de-responsabilité)
-- Créez une issue avec le label `leadership`
-- Présentez votre vision et votre plan d'action
+**How to get started?**
+- Check our [contribution guide](CONTRIBUTING.md#technical-leadership-and-responsibility)
+- Create an issue with the `leadership` label
+- Present your vision and action plan
 
 ---
 
-Ce projet vise à fournir une solution d'accessibilité universelle (par exemple, synthèse vocale, affichage braille, retour haptique, audio spatial, IA et reconnaissance d'image, etc.) sous Linux (et, à terme, sous Android et Windows) afin de faciliter l'utilisation des applications (par exemple, LibreOffice, éditeurs, applications Android, etc.) par les utilisateurs en situation de handicap.
+This project aims to provide a universal accessibility solution (e.g., speech synthesis, braille display, haptic feedback, spatial audio, AI and image recognition, etc.) on Linux (and eventually on Android and Windows) to facilitate the use of applications (e.g., LibreOffice, editors, Android applications, etc.) by users with disabilities.
 
-## Fonctionnalités
+## Features
 
-- **Synthèse vocale** (via le module speech_backend) : lire à voix haute les informations (textes, notifications, etc.).
-- **Affichage braille** (via le module braille) : traduire le texte en braille (par exemple, via BRLTTY).
-- **Retour haptique** (via le module haptics) : fournir un retour tactile (vibrations, retour tactile) afin de renforcer l'interaction.
-- **Audio spatial** (via le module audio_spatial) : restituer des sons en 3D (spatialisation) afin d'indiquer la position d'un élément dans l'espace.
-- **IA et reconnaissance d'image** (via le module ai) : analyser et décrire l'environnement (par exemple, décrire une image ou une interface) à l'aide de l'OCR, de la reconnaissance d'objets, etc.
-- **Gestion des entrées** (via le module input_listener) : intercepter les entrées (clavier, souris) et les transmettre au backend AT-SPI afin de communiquer avec les applications.
-- **Backend AT-SPI** (via le module atspi_backend) : communiquer avec les applications (par exemple, LibreOffice, éditeurs, applications Android) afin de récupérer les informations (textes, éléments, états, etc.).
-- **Configuration et accessibilité** (via le module config, accessibility) : personnaliser le comportement (contraste, raccourcis, loupe, etc.) afin de s'adapter à l'environnement (Linux, Android, Windows).
+- **Speech synthesis** (via the speech_backend module): read information aloud (texts, notifications, etc.).
+- **Braille display** (via the braille module): translate text into braille (e.g., via BRLTTY).
+- **Haptic feedback** (via the haptics module): provide tactile feedback (vibrations, tactile feedback) to reinforce interaction.
+- **Spatial audio** (via the audio_spatial module): render 3D sounds (spatialization) to indicate the position of an element in space.
+- **AI and image recognition** (via the ai module): analyze and describe the environment (e.g., describe an image or interface) using OCR, object recognition, etc.
+- **Input management** (via the input_listener module): intercept inputs (keyboard, mouse) and transmit them to the AT-SPI backend to communicate with applications.
+- **AT-SPI backend** (via the atspi_backend module): communicate with applications (e.g., LibreOffice, editors, Android applications) to retrieve information (texts, elements, states, etc.).
+- **Configuration and accessibility** (via the config, accessibility modules): customize behavior (contrast, shortcuts, magnifier, etc.) to adapt to the environment (Linux, Android, Windows).
 
 ## Installation
 
-Consultez le [guide d'installation](docs/guide_installation.md) afin de détailler les étapes (par exemple, installer les dépendances, cloner le dépôt, exécuter les tests, lancer l'application, etc.).
+See the [installation guide](docs/guide_installation.md) for detailed steps (e.g., install dependencies, clone repository, run tests, launch application, etc.).
 
 ## Documentation
 
-- [Schéma d'architecture](docs/architecture.md) : détaille le diagramme et les interactions entre les modules (par exemple, l'interface utilisateur, input_listener, speech_backend, braille, haptics, audio_spatial, ai, atspi_backend, config, accessibility, etc.).
-- [Guide d'utilisation avancée](docs/guide_avance.md) : explique comment utiliser les fonctionnalités avancées (contraste, raccourcis, braille, retour haptique, audio spatial, IA, synthèse vocale, etc.).
-- [Documentation des API internes](docs/api.md) : détaille les fonctions, classes et paramètres des modules afin de faciliter l'intégration et l'extension du projet.
-- [Exemples de code](docs/examples.md) : montre comment utiliser ces API dans des cas concrets (par exemple, calculer le contraste, enregistrer un raccourci, afficher un texte en braille, déclencher une vibration, jouer un son spatial, reconnaître des objets, lire un texte, etc.).
-- [Guide de contribution](docs/contributing.md) : détaille les étapes (cloner le dépôt, installer les dépendances, exécuter les tests, soumettre une pull request, etc.) afin que d'autres développeurs puissent contribuer au projet.
+- [Architecture diagram](docs/architecture.md): details the diagram and interactions between modules (e.g., user interface, input_listener, speech_backend, braille, haptics, audio_spatial, ai, atspi_backend, config, accessibility, etc.).
+- [Advanced usage guide](docs/guide_avance.md): explains how to use advanced features (contrast, shortcuts, braille, haptic feedback, spatial audio, AI, speech synthesis, etc.).
+- [Internal API documentation](docs/api.md): details the functions, classes and parameters of modules to facilitate integration and extension of the project.
+- [Code examples](docs/examples.md): shows how to use these APIs in concrete cases (e.g., calculate contrast, record a shortcut, display text in braille, trigger vibration, play spatial sound, recognize objects, read text, etc.).
+- [Contribution guide](docs/contributing.md): details the steps (clone repository, install dependencies, run tests, submit pull request, etc.) so other developers can contribute to the project.
 
-## Intégration continue
+## Continuous Integration
 
-Le projet intègre un workflow d'intégration continue (CI) (dans [.github/workflows/ci.yml](.github/workflows/ci.yml)) qui lance automatiquement les tests (unitaires, intégration, accessibilité) à chaque push (ou pull request) sur la branche main (via GitHub Actions).
+The project integrates a continuous integration (CI) workflow (in [.github/workflows/ci.yml](.github/workflows/ci.yml)) that automatically runs tests (unit, integration, accessibility) on each push (or pull request) to the main branch (via GitHub Actions).
 
-## Système de build
+## Build System
 
-Le projet intègre un Makefile (dans le répertoire racine) qui définit les cibles (install, test, package, clean) afin de faciliter la mise en place du système de build (par exemple, installer les dépendances, exécuter les tests, générer un paquet, nettoyer les fichiers générés).
+The project integrates a Makefile (in the root directory) that defines targets (install, test, package, clean) to facilitate the setup of the build system (e.g., install dependencies, run tests, generate package, clean generated files).
 
-## À propos du créateur
+## About the Creator
 
-**Important :** Je ne suis pas développeur de métier, mais j'ai une vision claire de ce que ce projet peut apporter à la communauté de l'accessibilité. J'ai découvert Cursor et l'IA qui m'ont permis de créer cette base, mais je reconnais mes limites techniques.
+**Important:** I am not a professional developer, but I have a clear vision of what this project can bring to the accessibility community. I discovered Cursor and AI which allowed me to create this foundation, but I recognize my technical limitations.
 
-**Ma vision :** Rendre le monde numérique accessible à tous, peu importe les handicaps. Ce projet vise à combiner IA, multimodalité (voix, braille, haptique, audio spatial) et accessibilité universelle.
+**My vision:** Make the digital world accessible to everyone, regardless of disabilities. This project aims to combine AI, multimodality (voice, braille, haptic, spatial audio) and universal accessibility.
 
-**Mon rôle :** Je reste ouvert aux suggestions, aux améliorations et à laisser des développeurs compétents prendre la direction technique du projet. Mon objectif est que ce projet serve la communauté, même si cela signifie le confier à des mains plus expérimentées.
+**My role:** I remain open to suggestions, improvements and letting competent developers take technical direction of the project. My goal is for this project to serve the community, even if it means entrusting it to more experienced hands.
 
-**Pourquoi cette transparence ?** Je préfère être honnête sur mes compétences et mes attentes. Si vous êtes développeur et que ce projet vous intéresse, n'hésitez pas à contribuer ou même à prendre un rôle de leadership technique.
+**Why this transparency?** I prefer to be honest about my skills and expectations. If you are a developer and this project interests you, don't hesitate to contribute or even take a technical leadership role.
 
 ## Contribution
 
-Consultez le [guide de contribution](docs/contributing.md) afin de détailler les étapes (cloner le dépôt, installer les dépendances, exécuter les tests, soumettre une pull request, etc.) pour que d'autres développeurs puissent contribuer au projet.
+See the [contribution guide](docs/contributing.md) for detailed steps (clone repository, install dependencies, run tests, submit pull request, etc.) so other developers can contribute to the project.
 
-## Idée d'amélioration (IA semi-autonome)
+## Improvement Idea (Semi-autonomous AI)
 
-À terme, nous envisageons d'intégrer une IA (par exemple, via un bot ou un service) qui apprenne (par exemple, via du machine learning ou de l'apprentissage par renforcement) à partir des contributions (par exemple, des commits, des PR, des revues, etc.) afin d'aider (par exemple, en suggérant des améliorations, en détectant des bugs, en générant des tests, en mettant à jour la documentation, etc.) les développeurs et, à terme, d'améliorer le projet de façon semi-autonome. Cette piste (par exemple, en analysant les commits, les PR, les revues, etc. et en proposant des suggestions) pourrait, à terme, faciliter le maintien et accroître la compatibilité du projet.
+In the long term, we plan to integrate an AI (e.g., via a bot or service) that learns (e.g., via machine learning or reinforcement learning) from contributions (e.g., commits, PRs, reviews, etc.) to help (e.g., by suggesting improvements, detecting bugs, generating tests, updating documentation, etc.) developers and, ultimately, improve the project semi-autonomously. This approach (e.g., by analyzing commits, PRs, reviews, etc. and proposing suggestions) could, in the long term, facilitate maintenance and increase project compatibility.
 
-## Licence
+## License
 
-Ce projet est sous licence **MIT** ET **Apache 2.0** (licence duale). Vous pouvez choisir la licence qui vous convient le mieux :
+This project is under **MIT** AND **Apache 2.0** license (dual license). You can choose the license that suits you best:
 
-- [Licence MIT](LICENSE) - Simple et permissive
-- [Licence Apache 2.0](LICENSE-APACHE) - Avec protection des brevets
+- [MIT License](LICENSE) - Simple and permissive
+- [Apache 2.0 License](LICENSE-APACHE) - With patent protection
 
-Cette approche duale offre une flexibilité maximale aux utilisateurs et contributeurs.
+This dual approach offers maximum flexibility to users and contributors.
 
-# UniAccess – Accessibilité universelle
+# UniAccess – Universal Accessibility
 
-## Objectif
-Ce projet vise à rendre le monde numérique accessible à tous, sur Linux, Windows, Android, consoles de jeux, et plus encore. Il regroupe des modules pour la gestion de l'accessibilité (voix, braille, haptique, IA, etc.), l'intégration d'applications, et la configuration centralisée.
+## Objective
+This project aims to make the digital world accessible to everyone, on Linux, Windows, Android, gaming consoles, and more. It brings together modules for accessibility management (voice, braille, haptic, AI, etc.), application integration, and centralized configuration.
 
-## Structure du projet
+## Project Structure
 
 ```
 uniaccess/
@@ -119,50 +119,50 @@ models/
 docs/
 ```
 
-## Modules principaux
-- **Linux/Windows** : accessibilité, applications, braille, voix, etc.
-- **Android** : gestion des apps système, utilisateur, accessibilité, widgets, etc.
-- **Console** : support HDMI, manettes, analyse d'interface.
-- **Haptique** : retour tactile, contrôleurs personnalisés.
-- **Audio spatial** : son 3D, calibration, casques audio.
-- **Braille** : afficheurs, traduction, configuration.
-- **IA/Models** : reconnaissance d'images, OCR, description d'interface.
+## Main Modules
+- **Linux/Windows**: accessibility, applications, braille, voice, etc.
+- **Android**: system apps, user, accessibility, widgets, etc. management
+- **Console**: HDMI support, controllers, interface analysis.
+- **Haptic**: tactile feedback, custom controllers.
+- **Spatial Audio**: 3D sound, calibration, audio headsets.
+- **Braille**: displays, translation, configuration.
+- **AI/Models**: image recognition, OCR, interface description.
 
-## Configuration centralisée
-Un fichier de configuration permet de gérer tous les supports (voix, braille, haptique, IA, etc.) et d'adapter l'expérience utilisateur.
+## Centralized Configuration
+A configuration file allows managing all supports (voice, braille, haptic, AI, etc.) and adapting the user experience.
 
 ## Documentation
-Voir le dossier `docs/` pour les guides d'installation, la documentation technique, les tutoriels vidéo, etc.
+See the `docs/` folder for installation guides, technical documentation, video tutorials, etc.
 
 ## Contribution
-Toute aide est la bienvenue pour rendre le numérique accessible et digne pour tous !
+Any help is welcome to make digital technology accessible and dignified for everyone!
 
 ## Vision
-Rendre accessible n'importe quel contenu numérique (PC, Linux, Android, consoles, jeux vidéo...) à tous, grâce à l'IA, la multimodalité (voix, braille, haptique, son spatial...) et des solutions portables, non-invasives et open source.
+Make any digital content accessible (PC, Linux, Android, consoles, video games...) to everyone, through AI, multimodality (voice, braille, haptic, spatial sound...) and portable, non-invasive, open source solutions.
 
-## Objectifs
-- Accessibilité universelle, même pour les jeux vidéo non accessibles
-- Solution portable (clé USB, Raspberry Pi, Android...)
-- IA pour l'analyse d'image, OCR, description d'interface
-- Restitution personnalisable : voix, braille, haptique, son spatial
-- Modularité : chaque brique peut être utilisée séparément
-- Ouverture à la communauté : chacun peut contribuer, adapter, enrichir
+## Goals
+- Universal accessibility, even for non-accessible video games
+- Portable solution (USB key, Raspberry Pi, Android...)
+- AI for image analysis, OCR, interface description
+- Customizable restitution: voice, braille, haptic, spatial sound
+- Modularity: each component can be used separately
+- Community openness: everyone can contribute, adapt, enrich
 
-## Cas d'usage
-- Lire et naviguer dans des jeux vidéo non accessibles
-- Rendre accessible une console de jeux via une carte d'acquisition HDMI
-- Utiliser l'IA pour décrire une interface graphique ou un menu
-- Restituer l'information par la voix, le braille, le retour haptique ou le son spatial
+## Use Cases
+- Read and navigate in non-accessible video games
+- Make a gaming console accessible via HDMI capture card
+- Use AI to describe a graphical interface or menu
+- Restitute information through voice, braille, haptic feedback or spatial sound
 
-## Comment contribuer ?
-- Forkez le projet, proposez vos modules, corrigez la doc, partagez vos idées !
-- Toute contribution (code, doc, tests, matériel, idées) est la bienvenue.
+## How to contribute?
+- Fork the project, propose your modules, fix documentation, share your ideas!
+- Any contribution (code, documentation, tests, hardware, ideas) is welcome.
 
-## Pour aller plus loin
-- Voir les dossiers spécifiques pour chaque modalité
-- Guides d'installation et d'utilisation dans `docs/`
-- Exemples de code dans chaque sous-dossier
+## To go further
+- See specific folders for each modality
+- Installation and usage guides in `docs/`
+- Code examples in each subfolder
 
 ---
 
-**Ce projet est ouvert, évolutif, et attend vos idées pour rendre le numérique vraiment accessible à tous !** 
+**This project is open, evolving, and awaits your ideas to make digital technology truly accessible to everyone!** 
